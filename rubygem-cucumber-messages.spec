@@ -65,5 +65,5 @@ popd
 %{gem_instdir}/spec
 
 %changelog
-* Wed Oct 28 2020 Pavel Valena <pvalena@redhat.com> - 13.1.0-1
+* Fri Oct 30 2020 Pavel Valena <pvalena@redhat.com> - 13.1.0-1
 - Initial package
