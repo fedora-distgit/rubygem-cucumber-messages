@@ -1,10 +1,10 @@
-# Generated from cucumber-messages-13.1.0.gem by gem2rpm -*- rpm-spec -*-
+# Generated from cucumber-messages-14.0.1.gem by gem2rpm -*- rpm-spec -*-
 %global gem_name cucumber-messages
 
 Name: rubygem-%{gem_name}
-Version: 13.1.0
+Version: 14.0.1
 Release: 1%{?dist}
-Summary: cucumber-messages-13.1.0
+Summary: cucumber-messages-14.0.1
 License: MIT
 URL: https://github.com/cucumber/messages-ruby#readme
 Source0: https://rubygems.org/gems/%{gem_name}-%{version}.gem
@@ -58,5 +58,5 @@ popd
 %{gem_instdir}/spec
 
 %changelog
-* Wed Oct 28 2020 Pavel Valena <pvalena@redhat.com> - 13.1.0-1
+* Wed Oct 28 2020 Pavel Valena <pvalena@redhat.com> - 14.0.1-1
 - Initial package
