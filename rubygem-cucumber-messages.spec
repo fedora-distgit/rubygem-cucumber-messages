@@ -3,7 +3,7 @@
 
 Name: rubygem-%{gem_name}
 Version: 14.0.1
-Release: 1.4%{?dist}
+Release: 1.5%{?dist}
 Summary: cucumber-messages-14.0.1
 License: MIT
 URL: https://github.com/cucumber/messages-ruby#readme
