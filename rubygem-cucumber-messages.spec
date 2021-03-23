@@ -3,7 +3,7 @@
 
 Name: rubygem-%{gem_name}
 Version: 14.0.1
-Release: 1.5%{?dist}
+Release: 1.6%{?dist}
 Summary: cucumber-messages-14.0.1
 License: MIT
 URL: https://github.com/cucumber/messages-ruby#readme
@@ -29,6 +29,10 @@ Documentation for %{name}.
 
 %prep
 %setup -q -n %{gem_name}-%{version}
+
+# Use protobuf available in Fedora since it has the required functionality.
+%gemspec_remove_dep -g protobuf-cucumber
+%gemspec_add_dep -g protobuf
 
 %build
 gem build ../%{gem_name}-%{version}.gemspec
