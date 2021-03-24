@@ -3,7 +3,7 @@
 
 Name: rubygem-%{gem_name}
 Version: 14.0.1
-Release: 1.6%{?dist}
+Release: 1.7%{?dist}
 Summary: cucumber-messages-14.0.1
 License: MIT
 URL: https://github.com/cucumber/messages-ruby#readme
@@ -62,5 +62,5 @@ popd
 %{gem_instdir}/spec
 
 %changelog
-* Wed Oct 28 2020 Pavel Valena <pvalena@redhat.com> - 14.0.1-1
+* Wed Oct 28 2020 Jarek Prokop <jprokop@redhat.com> - 14.0.1-1
 - Initial package
